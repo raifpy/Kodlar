@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>Bayton Deneme Sayfası</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython.js" integrity="sha256-rA89wPrTJJQFWJaZveKW8jpdmC3t5F9rRkPyBjz8G04=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython_stdlib.js" integrity="sha256-Gnrw9tIjrsXcZSCh/wos5Jrpn0bNVNFJuNJI9d71TDs=" crossorigin="anonymous"></script>
+    
+    </head>
+    <body onload="brython()">
+        <p hidden>Merhaba Dünya</p>
+        <script type="text/python">
+            from browser import document
+            import urllib.request as req
+
+            ipInfo = req.urlopen("http://ip-api.com/json").read()
+            document <= ipInfo
+
+            for i in range(20):
+                print(i)
+                
+            
+        </script>
+    </body>
+</html>

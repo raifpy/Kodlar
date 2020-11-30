@@ -1,0 +1,4 @@
+go get fyne.io/fyne/cmd/fyne
+fyne bundle myImage.png >> output.go
+
+// You can use this method 

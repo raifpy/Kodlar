@@ -1,0 +1,33 @@
+Dosya okuma ve yazmanın biraz zahmet verici olduğunun farkındayım
+Bu sebepten tıpkı python gibi bir kütüphane yazacağım
+Kullanımı basit olacak . Haydi yapalım | Sal Tem 14 01:41:50 +03 2020
+
+
+Bitti | Sal Tem 14 02:01:11 +03 2020
+
+Kurulum ;
+
+cp -r raiFile $HOME/go/src
+cd $HOME/go/src/raiFle
+go install .
+
+Kurulmuş olacaktır ..
+
+Evet anlık olarak install etmeme rağmen gözükmüyor sebebini anlayamadım | Sal Tem 14 02:14:51 +03 2020
+Sanırım paket isminde büyük harf olduğu için olmuyor | Sal Tem 14 02:25:56 +03 2020
+Niye olmuyor amk | Sal Tem 14 02:28:07 +03 2020
+
+go list all 
+Yazdıktan sonra listenin içerisinde bizim eleman var ise (raiFile) sorun yok demek sanırım , reboot atıp geliyorum :D (go help packages) | Sal Tem 14 02:45:21 +03 2020
+ 
+Niye olmuyor amk | Sal Tem 14 15:39:05 +03 2020
+ilginç hala olmuyor | Sal Tem 14 15:59:22 +03 2020
+
+Modül adları büyük harf ile başlaması gerekiyormuş , en sonunda çözüldü :)
+
+Ayrıca errHandler ve bu arkadaşı go get github.com/raifpy/Go adresinden çekip kullanabilrisiniz | Çrş Tem 15 16:28:18 +03 2020
+
+Son Güncelleme : 2020-07-15 16:36:06.199190188 +0300 +03 m=+0.000609945
+Son Güncelleme : 2020-07-15 16:36:28.517961187 +0300 +03 m=+0.000578253
+Son Güncelleme : 2020-07-15 17:12:11.4638489 +0300 +03 m=+0.000344158
+Son Güncelleme : 2020-07-15 17:12:36.261973994 +0300 +03 m=+0.000623535
