@@ -1,4 +1,4 @@
-# Raifpy on
+# raifpy on
 <ul>
 <li><a href="https://raifpy.medium.com" target="_blank">Medium</a></li>
 <li><a href="https://youtube.com/c/ÖmerRaifTekin" target="_blank">YouTube</a></li>
