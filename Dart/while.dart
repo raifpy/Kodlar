@@ -1,13 +1,8 @@
-main(){
-  
-  print("Faytona benziyor frint :)");
+main() {
   bool bolbol = true;
-
-
-  while (bolbol){
+  while (bolbol) {
     print("Merhaba Dünya");
-    
-    }
-  
+  }
+
   // while (true) () içerisindeki eleman true olduğu süre boyunca sürekli devam ..
 }
